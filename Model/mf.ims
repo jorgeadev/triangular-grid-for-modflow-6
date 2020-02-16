@@ -1,0 +1,13 @@
+BEGIN options
+  PRINT_OPTION  summary
+  COMPLEXITY  complex
+END options
+
+BEGIN nonlinear
+  OUTER_HCLOSE  1.00000000E-08
+END nonlinear
+
+BEGIN linear
+  INNER_HCLOSE  1.00000000E-08
+END linear
+
