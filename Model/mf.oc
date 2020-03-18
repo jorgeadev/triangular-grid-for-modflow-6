@@ -1,0 +1,12 @@
+BEGIN options
+  BUDGET  FILEOUT  mf.cbc
+  HEAD  FILEOUT  mf.hds
+END options
+
+BEGIN period  1
+  SAVE  HEAD  LAST
+  SAVE  BUDGET  LAST
+  PRINT  HEAD  LAST
+  PRINT  BUDGET  LAST
+END period  1
+
